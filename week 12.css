@@ -1,0 +1,107 @@
+* {
+	/* These will reset the behaviour of padding so your width doesn't get bigger if you add padding */
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+
+
+
+
+.container1 {
+	width: 50%;
+	/*top and bottem 0px, left and right 25%*/
+	margin: 100px 25%;
+	height: 400px;
+	background-color: yellow;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.flex1 {
+	width: 150px;
+	height: 150px;
+	background-color: red;
+}
+
+.flex2 {
+	width: 200px;
+	height: 200px;
+	background-color: blue;
+	border-radius: 50%;
+	margin-top: -50px;
+}
+
+.container2 {
+	width: 50%;
+	height: 400px;
+	margin: 0px 25%;
+	background-color: yellow;
+	position: relative;
+}
+
+
+.item1 {
+	width: 150px;
+	height: 150px;
+	background-color: red;
+	position: absolute;
+	left: 50%;
+	margin-left: -75px; 
+	/*^negative half width*/
+	top: 10%;
+	margin-top: 5px;
+}
+
+
+.item2 {
+	width:200px;
+	height: 200px;
+	background-color: blue;
+	border-radius: 50%;
+	position: absolute;
+	top: 0px;
+	left: 50%;
+	margin-left: -100px;
+}
+
+
+.container3 {
+	background-color: orange;
+	height: 100vh;
+	/*100 units of vertical height*/
+	padding: 50px;
+}
+
+
+.container4 {
+	height: 600px;
+	padding: 50px;
+	background-color: limegreen;
+}
+
+
+.sticky {
+	font-family: sans-serif;
+	margin-top: 0px;
+	position: sticky;
+	top:100px;
+}
+
+
+
+
+
+
+
+
+
